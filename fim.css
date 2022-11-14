@@ -663,7 +663,7 @@ html{
     }
     .home{
         width:80%;
-        height: 430px;
+        height: 480px;
         text-align: center;
         align-items: center;
     }
@@ -691,7 +691,7 @@ html{
         padding-right: 0;
     }
     .services-section{
-        margin-top: 8rem;
+        margin-top: 10rem;
         height: fit-content;
         margin-bottom: 15rem;
     }
