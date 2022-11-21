@@ -638,7 +638,7 @@ html{
         align-items: center;
         z-index: 2;
         opacity: 1;
-        transform: translateX(-100%);
+        transform: translateX(-120%);
         border-bottom: 1px white solid;
         transition: opacity .9s;
     }
