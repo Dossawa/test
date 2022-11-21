@@ -571,8 +571,9 @@ opacity: 0;
  .toggle{
     display: block;
     position: absolute;
-    top: 1rem;
-    right: 1.5rem;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    right: 1rem;
     color: white;
     cursor: pointer;
  }
@@ -620,7 +621,7 @@ html{
     }
     header{
         position: relative;
-        height: 3rem;
+        height: 5rem;
         margin-bottom: 1rem;
         background: black;
     }
@@ -651,7 +652,7 @@ html{
         align-items: center;
     }
     .formulaire{
-        top: 30%;
+        top: 38%;
         width: 60%;
     }
    
