@@ -579,6 +579,14 @@ opacity: 0;
  .ouvrir{
     display: block;
 }
+.text-logo{
+    position: absolute;
+    left: 0;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
 .fermer{
     display: none;
 }
@@ -586,6 +594,9 @@ opacity: 0;
     display: block;
  }
  .open .ouvrir{
+    display: none;
+ }
+ .open .text-logo{
     display: none;
  }
  .open .nav-list{
@@ -611,7 +622,7 @@ html{
         position: relative;
         height: 3rem;
         margin-bottom: 1rem;
-        background: #21618C;
+        background: black;
     }
     nav{
         height: 100%;
@@ -638,6 +649,10 @@ html{
         height: 400px;
         text-align: center;
         align-items: center;
+    }
+    .formulaire{
+        top: 30%;
+        width: 60%;
     }
    
     .intro{
